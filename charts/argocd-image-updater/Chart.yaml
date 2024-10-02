@@ -8,6 +8,6 @@ appVersion: v0.14.0
 dependencies:
   - name: argocd-image-updater
     version: v0.14.0
-    repository: https://argoproj.github.io/argo-helm
+    repository: https://github.com/argoproj/argo-helm/tree/main/charts
 name: argocd-image-updater
 version: v0.14.0
