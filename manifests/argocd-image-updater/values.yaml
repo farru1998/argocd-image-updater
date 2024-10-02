@@ -146,10 +146,10 @@ config:
   logLevel: "info"
 
   # -- Argo CD Image Updater registries list configuration. More information [here](https://argocd-image-updater.readthedocs.io/en/stable/configuration/registries/)
-  registries: []
-    # - name: Docker Hub
-    #   api_url: https://registry-1.docker.io
-    #   ping: yes
+  registries:
+    - name: Docker Hub
+      api_url: https://registry-1.docker.io
+      ping: yes
     #   credentials: secret:foo/bar#creds
     #   defaultns: library
     # - name: Google Container Registry
