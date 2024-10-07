@@ -1,8 +1,3 @@
-helm:
-  parameters:
-  - name: image.name
-    value: mfarhan1998/image-updater-poc
-    forcestring: true
-  - name: image.tag
-    value: 2024.03.07-abc
-    forcestring: true
+image: 
+  repository: "mfarhan1998/image-updater-poc"
+  tag: "2024.01.02-def"
