@@ -1,0 +1,8 @@
+helm:
+  parameters:
+  - name: image.name
+    value: mfarhan1998/image-updater-poc
+    forcestring: true
+  - name: image.tag
+    value: 2024.03.06-abc
+    forcestring: true
