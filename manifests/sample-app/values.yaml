@@ -6,3 +6,6 @@ helm:
   - name: image.tag
     value: 2024.03.07-abc
     forcestring: true
+  - name: image.repository
+    value: mfarhan1998/image-updater-poc
+    forcestring: true
