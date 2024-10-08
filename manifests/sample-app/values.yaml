@@ -4,5 +4,11 @@ helm:
     value: mfarhan1998/image-updater-poc
     forcestring: true
   - name: image.tag
-    value: 2024.03.09-abc
+    value: 2024.03.07-abc
+    forcestring: true
+  - name: test.image.repository
+    value: mfarhan1998/image-updater-poc
+    forcestring: true
+  - name: test.image.tag
+    value: 2024.03.10-abc
     forcestring: true
