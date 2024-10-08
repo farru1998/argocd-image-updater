@@ -1,3 +1,4 @@
-image:
-  name: "mfarhan1998/image-updater-poc"
-  tag: "2024.03.07-abc"
+test:
+  image:
+    name: "mfarhan1998/image-updater-poc"
+    tag: "2024.03.07-abc"
