@@ -6,9 +6,3 @@ helm:
   - name: image.tag
     value: 2024.03.09-abc
     forcestring: true
-  - name: test.image.repository
-    value: mfarhan1998/image-updater-poc
-    forcestring: true
-  - name: test.image.tag
-    value: 2024.03.09-abc
-    forcestring: true
