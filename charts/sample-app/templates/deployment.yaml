@@ -15,5 +15,5 @@ spec:
     spec:
       containers:
       - name: ubuntu-container
-        image: "{{ .Values.test.image.repository }}:{{ .Values.test.image.tag }}"
+        image: "{{ .Values.image.name }}:{{ .Values.image.tag }}"
         command: ["sleep", "3600"]  # Sleep for 3600 seconds (1 hour)
